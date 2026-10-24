@@ -1,0 +1,14 @@
+{
+  "name": "al-ayn-eye-hospital-mern",
+  "version": "1.0.0",
+  "description": "Full MERN Stack Web Application for Al Ayn Specialized Eye Hospital",
+  "scripts": {
+    "server": "node server/server.js",
+    "client": "npm --prefix client run dev",
+    "seed": "node server/seed.js",
+    "build": "npm --prefix client run build"
+  },
+  "keywords": ["mern", "ophthalmology", "eye-hospital", "react", "express", "mongodb", "nodejs"],
+  "author": "Antigravity Team",
+  "license": "MIT"
+}
